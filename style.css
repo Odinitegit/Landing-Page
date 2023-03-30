@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 
-
+/* Header */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -13,7 +13,6 @@ body{
 
 .headcontainer, ul{
     display: flex;
-   
     flex: 0 1 auto;
     justify-content: space-between;
     align-items:center ;
@@ -28,27 +27,17 @@ a{
     font-size: 18px;
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 26px;
-    border: 4px solid #3882f6;
-    
-    
-    
-    
-}
 
-
+    
+    /*  Top Section */
 .contenttop {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:#1F2937 ;
     flex-wrap: wrap;
-    
-    
-    
+    padding: 32px;
+    gap: 16px;
     
 }
 
@@ -72,7 +61,20 @@ button {
     background-color: #3882f6;
     color: #F9FAF8;
     border-radius: 6px;
+    border: none;
     padding: 4px 24px;
     margin: 0;
 
 }
+
+/*  images */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 26px;
+    border: 4px solid #3882f6;
+}
+
+/* Upper Middle */
+
+
