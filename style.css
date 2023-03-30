@@ -14,10 +14,12 @@ body{
 .headcontainer, ul{
     display: flex;
     flex: 0 1 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center ;
     background-color:#1F2937 ;
     padding: 0 8px;
+    
+    
 
 }
 
@@ -30,14 +32,14 @@ a{
 
     
     /*  Top Section */
-.contenttop {
+.top {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:#1F2937 ;
     flex-wrap: wrap;
     padding: 32px;
-    gap: 16px;
+    gap: 100px;
     
 }
 
@@ -71,7 +73,7 @@ button {
     text-decoration: none;
 }
 
-/* extra button stuff */
+/* extra button fluff */
  button:hover {
     background-color: #45a049;
   }
@@ -86,14 +88,129 @@ button {
 
 
 
-/*  images */
-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 26px;
-    border: 4px solid #3882f6;
-}
 
 /* Upper Middle */
 
 
+.upmidheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    
+}
+
+.kitcontainer{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 16px;
+    text-align: center;
+    color: #666;
+    gap: 62px;
+    
+
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+     max-width: 200px;
+    
+    
+ 
+    
+}
+
+/*  images */
+img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 26px;
+    border: 4px solid #3882f6;
+    background-color:#3882f6;
+    
+}
+
+
+
+/* Lower Middle */
+
+.lowmid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 24px;
+    
+
+
+}
+
+.quotetext{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: italic;
+    color: rgb(87, 86, 86);
+}
+.signature {
+margin-top: -16px;
+display: flex;
+margin-left: auto;
+font-weight: bold;
+font-style: normal;
+color: #1F2937;
+}
+
+/* Bottom Signup */
+
+.signupcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: #3882f6 ;
+    border-radius: 8px;
+    max-width: 800px;
+    
+}
+
+h4{
+    margin-bottom: -16px;
+}
+
+.signuptext{ 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color:white ;
+    
+}
+
+.button2{
+    border:2px solid white;
+    border-radius: 8px;
+    margin: auto;
+  
+    
+}
+
+/* Copyright Kitty Project */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: small;
+}
